@@ -11,7 +11,7 @@ github-repo: fdzul/control_fauna_nociva
 cover-image: images/cover.jpg
 url: https://fdzul.github.io/control_fauna_nociva/
 favicon: "favicon.ico"
-description: "El documento describe la la propuesta para el control de la fauna nociva"
+description: "El documento describe la propuesta para el control de la fauna nociva e insectos transmisores de enfermedades"
 ----
 
 # Prerequisites {-}
