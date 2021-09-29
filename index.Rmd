@@ -14,5 +14,5 @@ favicon: "favicon.ico"
 description: "El documento describe la la propuesta para el control de la fauna nociva"
 ----
 
-# Prerequisites
+# Prerequisites {-}
 
