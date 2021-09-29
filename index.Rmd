@@ -1,14 +1,18 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
-date: "`r Sys.Date()`"
+title: <span style="color:#003300;">Control de la Fauna nociva e insectos transmisores de enfermedades en sitios públicos</span>
+author: <span style="color:#003300;">Cipriano Gutierrez Castro & Felipe Antonio Dzul Manzanilla</span>
+date: "2021: Last compiled `r Sys.Date()`"
 site: bookdown::bookdown_site
+output: bookdown::gitbook
 documentclass: book
-bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
----
+github-repo: fdzul/control_fauna_nociva
+cover-image: images/cover.jpg
+url: https://fdzul.github.io/control_fauna_nociva/
+favicon: "favicon.ico"
+description: "El documento describe la la propuesta para el control de la fauna nociva"
+----
 
 # Prerequisites
 
