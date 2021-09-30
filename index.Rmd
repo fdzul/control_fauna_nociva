@@ -1,6 +1,6 @@
 --- 
 title: <span style="color:#003300;">Control de la Fauna nociva e insectos transmisores de enfermedades en sitios públicos</span>
-author: <span style="color:#003300;">Cipriano Gutierrez Castro & Felipe Antonio Dzul Manzanilla</span>
+author: <span style="color:#003300;"> Dr. Cipriano Gutierrez Castro & MC. Felipe Antonio Dzul Manzanilla</span>
 date: "2021: Last compiled `r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -12,7 +12,7 @@ cover-image: images/cover.jpg
 url: https://fdzul.github.io/control_fauna_nociva/
 favicon: "favicon.ico"
 description: "El documento describe la propuesta para el control de la fauna nociva e insectos transmisores de enfermedades"
-----
+---
 
 # Prerequisites {-}
 
