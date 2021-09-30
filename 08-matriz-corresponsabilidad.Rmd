@@ -1,2 +1,2 @@
-#**<span style="color:#003300;">Matriz de Corresponsabilidad </span>**{#matriz-corresponsabilidad}
+# **<span style="color:#003300;">Matriz de Corresponsabilidad </span>** {#matriz-corresponsabilidad}
 
