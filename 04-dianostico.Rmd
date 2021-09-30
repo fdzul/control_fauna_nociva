@@ -23,12 +23,42 @@ La presencia del dengue en el Municipios de Chilpancingo de los Bravo está docu
 En el transcurso de las dos decadas de transmisión de dengue en el municipio de chilpancingo de los Bravo, el municipio se ha vuelto endémico e hiperéndemico (Figura 1 y 2). En la Figura 1 se puede observar que la transmisión continua de dengue en todos los 22 años graficados (eje x).
 
 
-```{r, fig.cap = "Casos de dengue en Chilpancingo (2000-2021)"}
-knitr::include_graphics("C:/Users/felip/OneDrive/proyects/12_guerrero/029_chilpancingo/test_control_fauna_nociva/4.Graph/animated/den_chilapaningo_year_animated_2000_2021.gif")
+
+
+```{r,echo = FALSE,fig.cap = "Casos de dengue en municipio de Chilpancingo de los Bravo en el periódo comprendido entre el año 2000 al año 2021. Fuente: Cubos Dinamicos de la Dirección General de Información en Salud."}
+# Step 1. load the dengue dataset #####
+load("C:/Users/felip/OneDrive/proyects/12_guerrero/029_chilpancingo/test_control_fauna_nociva/8.RData/denv_12_guerrero_2000_2021.RData")
+library(ggplot2)
+library(gganimate)
+x <- denv |>
+    dplyr::filter(Municipio == "029 Chilpancingo De Los Bravo")
+names(x)[c(3,4)] <- c("year", "n")
+x$year <- as.numeric(x$year)
+x$n_text <- as.character(x$n)
+
+# Step 2. animates plot ####
+ggplot2::ggplot(data = x,
+                ggplot2::aes(x = year, 
+                             y = n,
+                             label = n_text)) +
+    ggplot2::geom_col(col = "#003300", size = 1.5, 
+                      fill = "gray50") +
+    ggplot2::geom_line(col = "#330019", size = 1.5) +
+    ggplot2::geom_point(col = "#003300", 
+                        size = 5, shape = 21, 
+                        fill = "gray50",
+                        stroke = 3) +
+    ggplot2::geom_text(hjust = -1, col = "#330019", size = 5) +
+    #ggplot2::geom_point() +
+    viridis::scale_color_viridis(discrete = TRUE) +
+    ggplot2::ylab("Número de Casos de Dengue") +
+    ggplot2::scale_x_continuous(breaks = c(seq(from = 2000, 
+                                             to = 2021, 
+                                             by = 2)))+
+    gganimate::transition_reveal(year)
+
 ```
 
-
-<img src="C:/Users/felip/OneDrive/proyects/12_guerrero/029_chilpancingo/test_control_fauna_nociva/4.Graph/animated/den_chilapaningo_year_animated_2000_2021.gif" width="700" height="700"/>
 
 ### Recursos financieros
 
