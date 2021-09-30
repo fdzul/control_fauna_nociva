@@ -16,13 +16,11 @@ La situación actual y la problemática de Chilpancingo de los Bravo se divide e
 
 
 
-**Progama de Prevención y Control del Dengue**
+**Programa de Prevención y Control del Dengue**
 
-La presencia del dengue en el Municipios de Chilpancingo de los Bravo está documentada en bases de datos de los cubos dinamicos del SUIVE, desde finales de los 90s (1999). Sin embargo se sospecha la introducción en las costas del pacífico de los virus del dengue desde los 80s.
+La presencia del dengue en el Municipios de Chilpancingo de los Bravo está documentada en bases de datos de los cubos dinamicos del SUIVE, desde finales de los 90s (1999). Sin embargo se sospecha la introducción de los virus del dengue en las costas del pacífico en los 80s.
 
 En el transcurso de las dos decadas de transmisión de dengue en el municipio de chilpancingo de los Bravo, el municipio se ha vuelto endémico e hiperéndemico (Figura 1 y 2). En la Figura 1 se puede observar que la transmisión continua de dengue en todos los 22 años graficados (eje x).
-
-
 
 
 ```{r,echo = FALSE,fig.cap = "Casos de dengue en municipio de Chilpancingo de los Bravo en el periódo comprendido entre el año 2000 al año 2021. Fuente: Cubos Dinamicos de la Dirección General de Información en Salud."}
@@ -59,10 +57,36 @@ ggplot2::ggplot(data = x,
 
 ```
 
+```{r,echo = FALSE,fig.cap = "Casos de dengue en municipio de Chilpancingo de los Bravo en el periódo comprendido entre el año 2000 al año 2021. Fuente: Cubos Dinamicos de la Dirección General de Información en Salud."}
+# Step 1. load the dengue dataset #####
 
-### Recursos financieros
+```
+
 
 
 ## Avances
 
+**El Programa de Prevención y Control del Dengue Federal** ha desarrollado un [Modelo Estratégico de Focalización del Dengue en Áreas Urbanas de México](https://fdzul.github.io/strategic_mod_den_targeting/) y un [manual para la identificación de los hotspots del dengue en áreas urbanas](https://fdzul.github.io/manual_hotspots/) que sirve como plataforma para que los directivos de salud de los tres niveles de gobierno (estatal, jurisdicciona y municipal) implementen sus programas anauales de prevención y control del dengue en su respectivo nivel de influencia.
+
+El Modelo Estratégico de Focalización del Dengue en Áreas Urbanas de México, de base en la combinación de la identificación de los hotspots de la transmisión y la identificación de los hotspots de la abundancia del vector, para desarrollar una estratificación del riesgo en las áreas urbanas. 
+
+
+```{r, echo = FALSE,fig.cap = "Hotspots de la Transmisión de Dengue en el área urbana de Chilpancingo"}
+
+```
+
+```{r, echo = FALSE,fig.cap = "Hotspots de la abundancia del vector en el área urbana de Chilpancingo"}
+
+```
+
+
+```{r, echo = FALSE,fig.cap = "Mapa de riesgo en el área urbana de Chilpancingo"}
+
+```
+
+
 ## Retos 2021-2024
+
+La implementación de programas de salud pública basados en evidencia y con enfoque de riesgo bajo un ambiente de limitación de recursos, constituyen importantes retos en el sector salud. En los programas de prevención y control del dengue, la implementación del **Modelo Estratégico de Focalización del Dengue en Áreas Urbanas** es el primer paso para implementar un programa de salud con enfoque de riesgo. La identificación de las áreas más importantes en el área urbana de la cabecera municipal de Chilpancingo, permitiría identificar no solo las colonias, sectores y manzanas más importantes sino también identificar los sitios públicos para focalizar las acciones de prevención y control del dengue.
+
+Desarollar  e implementar un plan agresivo de prevención y control de la fauna nociva y los vectores transmisores de enfermedades, paralelamente con un programa de prevención y control del dengue, es un reto de salud publica que lograría tener un impacto positivo en la carga de la enfermedad.
