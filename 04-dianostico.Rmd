@@ -20,7 +20,7 @@ La situación actual y la problemática de Chilpancingo de los Bravo se divide e
 
 La presencia del dengue en el Municipios de Chilpancingo de los Bravo está documentada en bases de datos de los cubos dinamicos del SUIVE, desde finales de los 90s (1999). Sin embargo se sospecha la introducción de los virus del dengue en las costas del pacífico en los 80s.
 
-En el transcurso de las dos decadas de transmisión de dengue en el municipio de chilpancingo de los Bravo, el municipio se ha vuelto endémico e hiperéndemico (Figura 1 y 2). En la Figura 1 se puede observar que la transmisión continua de dengue en todos los 22 años graficados (eje x).
+En el transcurso de las dos decadas de transmisión de dengue en el municipio de chilpancingo de los Bravo, el municipio se ha vuelto endémico e hiperéndemico (Figura 4.1 y 4.2). En la Figura 4.1 se puede observar que la transmisión continua de dengue en todos los 22 años graficados (eje x) y en la Figura 4.1 se observa que durante el periódo de 2008 al 2019 han circulado tres serotipos. La mayoria de los años circulo el serotipo 1 y 2, presentando mayor dominando el serotipo 2.
 
 
 ```{r,echo = FALSE,fig.cap = "Casos de dengue en municipio de Chilpancingo de los Bravo en el periódo comprendido entre el año 2000 al año 2021. Fuente: Cubos Dinámicos de la Dirección General de Información en Salud."}
@@ -94,10 +94,12 @@ ggplot2::ggplot(data = x,
                              y = n)) +
     ggplot2::geom_bar(stat = "identity",
                       position = "fill") +
-    ggplot2::geom_text(col = "#330019",
-                       position = "fill") +
+    ggplot2::geom_text(col = "white",
+                       position = "fill",
+                       vjust = 2) +
     ggplot2::theme(legend.position = "bottom") +
-    ggplot2::scale_fill_manual(values = 
+    ggplot2::scale_fill_manual("Serotipos",
+                               values = 
                                    feathers::get_pal("superb_fairy_wren"))
 
 ```
