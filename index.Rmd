@@ -1,5 +1,5 @@
 --- 
-title: <span style="color:#003300;">Control de la Fauna nociva e insectos transmisores de enfermedades en sitios públicos</span>
+title: <span style="color:#003300;">Control de la Fauna Nociva e Insectos Transmisores de Enfermedades en Sitios Públicos</span>
 author: <span style="color:#003300;"> Dr. Cipriano Gutierrez Castro & MC. Felipe Antonio Dzul Manzanilla</span>
 date: "2021: Last compiled `r Sys.Date()`"
 site: bookdown::bookdown_site

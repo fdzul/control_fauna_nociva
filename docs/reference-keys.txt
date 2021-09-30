@@ -22,3 +22,8 @@ alineación-con-reglamentos-sanitarios
 objetivos
 estrategías
 lineas-de-acción
+recursos-financieros
+avances
+retos-2021-2024
+fig:sample-gif
+fig:unnamed-chunk-1

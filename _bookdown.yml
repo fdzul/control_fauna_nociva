@@ -1,7 +1,9 @@
 book_filename: "control_fauna_nociva"
 language:
-  ui:
-    chapter_name: "Capítulo "
+label:
+    fig: "Figura "
+    tab: "Tabla "
+chapter_name: "Capítulo "
 delete_merged_file: true
 output_dir: docs
 cover-image: images/cover.jpg
