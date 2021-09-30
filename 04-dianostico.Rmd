@@ -23,7 +23,7 @@ La presencia del dengue en el Municipios de Chilpancingo de los Bravo está docu
 En el transcurso de las dos decadas de transmisión de dengue en el municipio de chilpancingo de los Bravo, el municipio se ha vuelto endémico e hiperéndemico (Figura 1 y 2). En la Figura 1 se puede observar que la transmisión continua de dengue en todos los 22 años graficados (eje x).
 
 
-```{r,echo = FALSE,fig.cap = "Casos de dengue en municipio de Chilpancingo de los Bravo en el periódo comprendido entre el año 2000 al año 2021. Fuente: Cubos Dinamicos de la Dirección General de Información en Salud."}
+```{r,echo = FALSE,fig.cap = "Casos de dengue en municipio de Chilpancingo de los Bravo en el periódo comprendido entre el año 2000 al año 2021. Fuente: Cubos Dinámicos de la Dirección General de Información en Salud."}
 # Step 1. load the dengue dataset #####
 load("C:/Users/felip/OneDrive/proyects/12_guerrero/029_chilpancingo/test_control_fauna_nociva/8.RData/denv_12_guerrero_2000_2021.RData")
 library(ggplot2)
@@ -57,11 +57,50 @@ ggplot2::ggplot(data = x,
 
 ```
 
-```{r,echo = FALSE,fig.cap = "Casos de dengue en municipio de Chilpancingo de los Bravo en el periódo comprendido entre el año 2000 al año 2021. Fuente: Cubos Dinamicos de la Dirección General de Información en Salud."}
-# Step 1. load the dengue dataset #####
+
+```{r,echo = FALSE,fig.cap = "Serotipos de dengue por año en al municipio de Chilpancingo de los Bravo . Fuente: Plataforma de Vectores del SINAVE/DGE"}
+#step 1. load the dengue dataset (2008-2019) ####
+load("C:/Users/felip/OneDrive/automatic_read_sinave/8.RData/den/den2008_2019.RData")
+
+# step 2. aggregate the dengue dataset by state and year ####
+x <- den2008_2019 |>
+    dplyr::filter(!DES_EDO_RES %in% c("OTROS PAISES", 
+                                      "OTROS PAISES DE LATINOAMERICA",
+                                      "ESTADOS UNIDOS DE NORTEAMERICA")) |>
+    dplyr::filter(DES_DIAG_FINAL %in% 
+                      c("FIEBRE HEMORRAGICA POR DENGUE",
+                        "FIEBRE POR DENGUE",
+                        "DENGUE CON SIGNOS DE ALARMA", 
+                        "DENGUE NO GRAVE", 
+                        "DENGUE GRAVE"))  |>
+    dplyr::filter(DES_EDO_RES == "GUERRERO") |>
+    dplyr::filter(DES_MPO_RES == "CHILPANCINGO DE LOS BRAVO") |>
+    dplyr::group_by(DES_EDO_RES, 
+                    DES_MPO_RES, 
+                    ANO, RESULTADO_PCR)  |>
+    dplyr::summarise(n = dplyr::n(), .groups = "drop") |>
+    dplyr::mutate(year = factor(ANO),
+                  n_text = as.character(n)) |>
+    dplyr::filter(!is.na(RESULTADO_PCR)) |>
+    dplyr::filter(RESULTADO_PCR %in% c(1:4)) |>
+    dplyr::mutate(RESULTADO_PCR = factor(RESULTADO_PCR))
+
+# plot the bar #####
+
+ggplot2::ggplot(data = x,
+                ggplot2::aes(x = year,
+                             fill = RESULTADO_PCR,
+                             label = n,
+                             y = n)) +
+    ggplot2::geom_bar(stat = "identity",
+                      position = "fill") +
+    ggplot2::geom_text(col = "#330019",
+                       position = "fill") +
+    ggplot2::theme(legend.position = "bottom") +
+    ggplot2::scale_fill_manual(values = 
+                                   feathers::get_pal("superb_fairy_wren"))
 
 ```
-
 
 
 ## Avances
