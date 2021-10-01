@@ -9,7 +9,7 @@ Con la finalidad de dar seguimiento al cumplimiento de los objetivos programáti
 x <- tibble::tibble("Objetivo" = c("Número de sitios públicos censados",
                                    "Número de sitios públicos censados",
                                    "Construir dos sistema de información geográfica"),
-                    "Metas" = c("100 %", "2", "100%"),
+                    "Metas" = c("100 %", "100%", "2"),
                     "Periodicidad" = c("Trimestral","Trimestral","Anual"))
 
 kableExtra::kable(x)
