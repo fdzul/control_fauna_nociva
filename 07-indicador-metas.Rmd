@@ -6,11 +6,27 @@ Con la finalidad de dar seguimiento al cumplimiento de los objetivos programáti
 
 
 ```{r, echo=FALSE}
-x <- tibble::tibble("Objetivo" = c("Número de sitios públicos censados",
+x <- tibble::tibble("Estrategia" = c("1", "2", "3", "4", 
+                                     rep("5", times = 5), rep(x = 6, times = 4)),
+                    "Objetivo" = c("Número de sitios públicos censados",
                                    "Número de sitios públicos censados",
-                                   "Construir dos sistema de información geográfica"),
-                    "Metas" = c("100 %", "100%", "2"),
-                    "Periodicidad" = c("Trimestral","Trimestral","Anual"))
+                                   "Construir dos sistema de información geográfica",
+                                   "Número de sitios públicos en el área hotspots",
+                                   
+                                   "Número de sitios públicos con rociado residual en el área hotspots",
+                                   "Número de sitios públicos con nebulización en frío en el área hotspots",
+                                   "Número de sitios públicos con trampas de roedores en el área hotspots",
+                                   "Número de sitios públicos con trapas pegajosas en el área hotspots",
+                                   "Número de sitios públicos con trampas de luz en el área hotspots",
+                                   
+                                   "Número de sitios públicos con monitoreo entomológico en el área hotspots",
+                                   "Número de sitios públicos con monitoreo de roedores en el área hotspots",
+                                   "Número de sitios públicos con pruebas de pared en el área hotspots",
+                                   "Número de sitios públicos con pruebas de jaulas en el área hotspots"),
+                    "Metas" = c("100 %", "100%", "2", "100%", rep(x = "100%", times = 9)),
+                    "Periodicidad" = c("Trimestral","Trimestral","Anual", "Trimestral",
+                                       "Trimestral", "Mensual", "Mensual", "Mensual", "Mensual",
+                                       "Semanal", "Mensual", "Mensual", "Mensual"))
 
 kableExtra::kable(x)
 ```

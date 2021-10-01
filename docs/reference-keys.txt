@@ -88,3 +88,4 @@ realizar-pruebas-biológicas-de-jaulas-en-los-sitios-públicos-del-municipio-de-
 construir-un-sistema-de-información-geográfica-de-los-sitios-públicos-del-municipio-de-chilpancingo-de-los-bravo.
 construir-un-sistema-de-información-geográfica-de-las-empresas-controladoras-de-plagas-del-municipio-de-chilpancingo-de-los-bravo.
 tab:unnamed-chunk-1
+realizar-el-monitoreo-entomológico-de-dipteros-de-importancia-médica-en-los-sitios-públicos-del-municipio-de-chilpancingo-de-los-bravo.
