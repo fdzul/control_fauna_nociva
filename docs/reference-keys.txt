@@ -28,3 +28,4 @@ retos-2021-2024
 fig:sample-gif
 fig:unnamed-chunk-1
 fig:unnamed-chunk-2
+programa-de-erradicación-de-ae.-aegypti-y-control-de-anophelinos

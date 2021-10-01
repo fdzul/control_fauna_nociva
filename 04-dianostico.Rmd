@@ -5,11 +5,21 @@
 ## Antecendentes
 
 
+## Programa de Erradicación de *Ae. aegypti* y Control de Anophelinos
+
+El programa de Erradicación de *Ae. aegypti* y Control de Anophelinos en México, durante varias decadas utilizó como eje central el uso y aplicación de insecticidas. Desde la implementación del Programa de Paludismo (principios de los años 50s) hasta mediados de los 90s, se usaron insecticidas del grupos de los organoclorados y durante un breve periódo de tiempo usó y aplicó organofosforados. El Programa de erradicación de *Ae. aegypti* y Control de la Fiebre Amarilla en México (1957-1967), también usó organoclorados para para el control de esta especie.
+En 1994 el Gobierno Méxicano celebró con Estados Unidos y Canada el Tratado de Libre Comercio de América del Norte (TLCAN), lo cual obligó a descontinuar el uso de insecticidas organoclorados y desde esa fecha hasta alrededor de 2010 se dejo de usar piretroides en el programa de prevencion y control de dengue debido a problemas de resistencia.
+
+El Centro Nacional de Prevención y Control de Enfermedades, reconocé que los
+insecticidas usados para el control de mosquitos transmisores de las enfermedades blanco de los programas de prevención y control de Paludismo y el programa de prevención y control de la Fiebre Amarilla, redujo las poblaciones de otros artrópodos de importancia en Salud pública (alacranes, chinches, pulgas, garrapatas) y también la fauna nociva (moscas, cucarachas, hormigas y roedores). Está evidencia es de suma importancia para implementar programas que tengan como blanco mosquitos transmisores de enfermedades, alacranes y chinches de la enfermedad de chagas y en consecuencia controlen la fauna nociva en los domicilios de los habitantes y en los sitios públicos.
+
+
+
 ## Situación Actual y Problemática
 
 La situación actual y la problemática de Chilpancingo de los Bravo se divide en tres categorías para fines expositivos.
 
-**Administración**. La administración pública del municipio de Chilpancingo de los Bravos (2021-2024) se enfrenta a un deficit de recursos de cerca de mil millones de pesos, y la proyección de las consecuencias permite visualizar que los programas prioritarios de salud pública a lo sumo operarían con el minimo basal de los recursos financieros, desproteguiendo areas sustantivas e importantes como es la prevención y control de las enfermedades transmitidas por vectores, enfermedades zoonóticas e intoxicaciones por picadura de alacrán y picadura de araña (violinista y viuda negra). 
+**Administración**. La administración pública del municipio de Chilpancingo de los Bravos (2021-2024) se enfrenta a un deficit de recursos de cerca de mil millones de pesos, y la proyección de las consecuencias permite visualizar que los programas prioritarios de salud pública a lo sumo operarían con el mínimo basal de los recursos financieros, desproteguiendo areas sustantivas e importantes como es la prevención y control de las enfermedades transmitidas por vectores, enfermedades zoonóticas e intoxicaciones por picadura de alacrán y picadura de araña (violinista y viuda negra). 
 
 
 **Verificación Sanitarias y corrupción**
@@ -18,7 +28,7 @@ La situación actual y la problemática de Chilpancingo de los Bravo se divide e
 
 **Programa de Prevención y Control del Dengue**
 
-La presencia del dengue en el Municipios de Chilpancingo de los Bravo está documentada en bases de datos de los cubos dinamicos del SUIVE, desde finales de los 90s (1999). Sin embargo se sospecha la introducción de los virus del dengue en las costas del pacífico en los 80s.
+La presencia del dengue en el Municipios de Chilpancingo de los Bravo está documentada en bases de datos de los cubos dinamicos del SUIVE, desde finales de los 90s (1999). Sin embargo se sospecha la introducción de los virus del dengue en las costas del pacífico antes de los 80s (Se documento a mediados de los 50s la presenecia de Ae. aegypti en las costas de Guerrero y los cual hace muy probablemente que tambien se encontrara la especie en el municipio de Chilpancingo).
 
 En el transcurso de las dos decadas de transmisión de dengue en el municipio de chilpancingo de los Bravo, el municipio se ha vuelto endémico e hiperéndemico (Figura 4.1 y 4.2). En la Figura 4.1 se puede observar que la transmisión continua de dengue en todos los 22 años graficados (eje x) y en la Figura 4.1 se observa que durante el periódo de 2008 al 2019 han circulado tres serotipos. La mayoria de los años circulo el serotipo 1 y 2, presentando mayor dominando el serotipo 2.
 
