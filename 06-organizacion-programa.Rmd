@@ -23,6 +23,9 @@
 
 ##### Actualizar el catálogo de sitios públicos del municipio de Chilpancingo de los Bravo.
 
+##### Construir un sistema de información geográfica de los sitios públicos del municipio de Chilpancingo de los Bravo.
+
+
 ### **Estrategia 2**. Generar y actualizar el patrón de las empresas controladoras de plagas del municipio de Chilpancingo de los Bravo.
 
 #### **Líneas de Acción**
@@ -31,7 +34,7 @@
 
 ##### Aplicar una encuesta sobre uso y aplicación de insecticidas al personal de las empresas controladoras de plagas del municipio de Chilpancingo de los Bravo.
 
-##### Digitalizar el catálogo de sitios públicos del municipio de Chilpancingo de los Bravo.
+##### Construir un sistema de información geográfica de las empresas controladoras de plagas del municipio de Chilpancingo de los Bravo.
 
 ### **Estrategía 3**. Identificar los hotspots de la transmisión de dengue en el área urbana de la cabecera municipal de Chilpancingo de los Bravo.
 

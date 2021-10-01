@@ -2,5 +2,16 @@
 
 ---
 
-Con la finalidad de dar seguimiento al cumplimiento de los objetivos programáticos de este Programa se han determinado los siguientes indicadores que se presentan a continuación y también en el anexo 6.
+Con la finalidad de dar seguimiento al cumplimiento de los objetivos programáticos del plan de Control de la Fauna Nociva e Insectos Transmisores de Enfermedades en Sitios Públicos se han determinado los siguientes indicadores que se presentan a continuación.
+
+
+```{r, echo=FALSE}
+x <- tibble::tibble("Objetivo" = c("Número de sitios públicos censados",
+                                   "Número de sitios públicos censados",
+                                   "Construir dos sistema de información geográfica"),
+                    "Metas" = c("100 %", "2", "100%"),
+                    "Periodicidad" = c("Trimestral","Trimestral","Anual"))
+
+kableExtra::kable(x)
+```
 
