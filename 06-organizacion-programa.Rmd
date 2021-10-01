@@ -2,26 +2,81 @@
 
 ---
 
-## Objetivos
+## **Objetivos**
 
-### Objetivo General
+### **Objetivo General**
 
 #### El Control de la Fauna Nociva e Insectos Transmisores de Enfermedades en Sitios Públicos
 
-### Objetivos Específicos
+### **Objetivos Específicos**
 
 #### Realizar el control químico para el control de *Aedes aegypti*, mosquitos urbanos, garrapatas, cucarachas, garrapatas, pulgas, hormigas, y moscas en sitios públicos en los hotspots del área urbana de la cabecera municipal de Chilpancingo de los Bravo.
 
 #### Realizar el control químico integral de roedores en sitios públicos en los hotspots del área urbana de la cabecera municipal de Chilpancingo de los Bravo.
 
 
-## Estrategías
+## **Estrategias**
 
-### Estrategía 1. Generar y actualizar el patrón de sitios públicos del municipio de Chilpancingo de los Bravo.
+### **Estrategia 1**. Generar y actualizar el patrón de sitios públicos del municipio de Chilpancingo de los Bravo.
 
-### Estrategía 1. Identificar las
+#### **Líneas de Acción**
 
-## Lineas de acción
+##### Actualizar el catálogo de sitios públicos del municipio de Chilpancingo de los Bravo.
+
+### **Estrategia 2**. Generar y actualizar el patrón de las empresas controladoras de plagas del municipio de Chilpancingo de los Bravo.
+
+#### **Líneas de Acción**
+
+##### Actualizar el catálogo de las empresas controladoras de plagas del municipio de Chilpancingo de los Bravo.
+
+##### Aplicar una encuesta sobre uso y aplicación de insecticidas al personal de las empresas controladoras de plagas del municipio de Chilpancingo de los Bravo.
+
+##### Digitalizar el catálogo de sitios públicos del municipio de Chilpancingo de los Bravo.
+
+### **Estrategía 3**. Identificar los hotspots de la transmisión de dengue en el área urbana de la cabecera municipal de Chilpancingo de los Bravo.
+
+#### **Líneas de Acción**
+
+##### Realizer el análisis espacial para identificar los hotspots de la transmisión de dengue en el área urbana de la cabecera municipal de Chilpancingo de los Bravo.
+
+
+### **Estrategía 4**. Estratificar los sitios públicos de acuerdo a los hotspots de transmisión de dengue.
+
+#### **Líneas de Acción**
+
+##### Identificar sitios públicos dentro del área hotspots del municipio de Chilpancingo de los Bravo.
+
+
+### **Estrategia 5**. Realizar el control integral de la fauna nociva y insectos transmisores de enfermedades.
+
+#### **Líneas de Acción**
+
+##### Aplicar rociado residual en sitios públicos del municipio de Chilpancingo de los Bravo.
+
+##### Aplicar nebulización en frio en sitios públicos del municipio de Chilpancingo de los Bravo.
+
+##### Instalar trampas de roedores en sitios públicos del municipio de Chilpancingo de los Bravo.
+
+##### Instalar trampas pegajosas en sitios públicos del municipio de Chilpancingo de los Bravo.
+
+##### Instalar trampas de luz en sitios públicos del municipio de Chilpancingo de los Bravo.
+
+
+### **Estrategia 6**. Evaluar la efectividad del control de plagas en los sitios públicos del municipio de Chilpancingo de los Bravo.
+
+#### **Líneas de Acción**
+
+##### Realizar el monitoreo entomologico de dipteros de importancia Médica en los sitios públicos del municipio de Chilpancingo de los Bravo.
+
+
+##### Realizar el monitoreo roedores de importancia Médica en los sitios públicos del municipio de Chilpancingo de los Bravo.
+
+
+##### Realizar pruebas biológicas de pared en los sitios públicos del municipio de Chilpancingo de los Bravo.
+
+##### Realizar pruebas biológicas de jaulas en los sitios públicos del municipio de Chilpancingo de los Bravo.
+
+
 
 
 
