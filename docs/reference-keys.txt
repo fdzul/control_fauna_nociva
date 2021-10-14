@@ -104,3 +104,6 @@ tab:unnamed-chunk-2
 tab:unnamed-chunk-3
 tab:unnamed-chunk-4
 tab:unnamed-chunk-5
+realizar-una-programa-de-educación-continua-sobre-uso-y-aplicación-de-insecticidas-en-salud-pública-dirigido-al-personal-de-las-empresas-controladoras-de-plagas-del-municipio-de-chilpancingo-de-los-bravo.
+realizar-el-análisis-espacial-para-identificar-los-hotspots-de-la-transmisión-de-dengue-en-el-área-urbana-de-la-cabecera-municipal-de-chilpancingo-de-los-bravo.
+estrategia-5.-evaluar-la-efectividad-del-control-de-plagas-en-los-sitios-públicos-del-municipio-de-chilpancingo-de-los-bravo.

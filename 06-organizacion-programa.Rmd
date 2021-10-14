@@ -34,23 +34,21 @@
 
 ##### Aplicar una encuesta sobre uso y aplicación de insecticidas al personal de las empresas controladoras de plagas del municipio de Chilpancingo de los Bravo.
 
+##### Realizar una programa de educación continua sobre uso y aplicación de insecticidas en salud pública dirigido al personal de las empresas controladoras de plagas del municipio de Chilpancingo de los Bravo.
+
 ##### Construir un sistema de información geográfica de las empresas controladoras de plagas del municipio de Chilpancingo de los Bravo.
 
 ### **Estrategía 3**. Identificar los hotspots de la transmisión de dengue en el área urbana de la cabecera municipal de Chilpancingo de los Bravo.
 
 #### **Líneas de Acción**
 
-##### Realizer el análisis espacial para identificar los hotspots de la transmisión de dengue en el área urbana de la cabecera municipal de Chilpancingo de los Bravo.
+##### Realizar el análisis espacial para identificar los hotspots de la transmisión de dengue en el área urbana de la cabecera municipal de Chilpancingo de los Bravo.
 
-
-### **Estrategía 4**. Estratificar los sitios públicos de acuerdo a los hotspots de transmisión de dengue.
-
-#### **Líneas de Acción**
 
 ##### Identificar sitios públicos dentro del área hotspots del municipio de Chilpancingo de los Bravo.
 
 
-### **Estrategia 5**. Realizar el control integral de la fauna nociva y insectos transmisores de enfermedades.
+### **Estrategia 4**. Realizar el control integral de la fauna nociva y insectos transmisores de enfermedades.
 
 #### **Líneas de Acción**
 
@@ -65,7 +63,7 @@
 ##### Instalar trampas de luz en sitios públicos del municipio de Chilpancingo de los Bravo.
 
 
-### **Estrategia 6**. Evaluar la efectividad del control de plagas en los sitios públicos del municipio de Chilpancingo de los Bravo.
+### **Estrategia 5**. Evaluar la efectividad del control de plagas en los sitios públicos del municipio de Chilpancingo de los Bravo.
 
 #### **Líneas de Acción**
 

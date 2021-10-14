@@ -2,11 +2,82 @@
 
 ---
 
-Las enfermedades transmitidas por vectores como el Dengue, Chikungunya, Zika, y Enfermedad de Chagas, junto con las enferemedades zoonoticas (Ricketias, Letospirosis) e intoxicaciones por picadura de alacran y picadura de arañas (viuda negra y violinista) son problemas proritarios de salud publica en México, el estado de Guerrero y en el Municipio de Chilpancingo de los Bravo. 
+Las enfermedades transmitidas por mosquitos (ETM), como la fiebre amarilla (vómito negro), las enfermedades transmitidas por garrapatas (ETG) como la enfermedad de Lyme, Fiebre Manchada de las Montañas, ehrlichiosis, y la Babesiosis, las enfermedades transmitidas por Pulgas o Piojos (ETP) como la plaga (muerte negra) y como el tifo, y las enfermedades transmitidas por roedores (ETR) como hantavirus y letospirosis, constituyen potenciales problemas de salud pública como zoonosis reemergentes (Fiebre Amarilla o la plaga) o emergentes dificiles de manejar, predecir y controlar.  
 
-Si a la complicada situación epidemiológica, se agregan enfermedades exóticas como la Fiebre Amarilla, Virus del Nilo y Virus Mayaro, los pronósticos probables de las posibles brotes y epidémias forzan y estimulan a que las autoridades de salud de los tres niveles, desarollen, implemente, escale y avaluén planes estratégicos basados en evidencia científica y con enfoque de riesgo con la finalidad de  limitar la distribución y transmisión de los actuales problemas de salud pública y las potenciales enfemedades exóticas y en consecuencia limitar la carga de las enfermedades en la población del Municipio de Chilpancingo de los Bravo.
+[El Instituto Nacional de Allergia & Enfermedades Infecciosas (National Institute of Allergy and Infectious Diseases, NIAID)](https://www.niaid.nih.gov/research/emerging-infectious-diseases-pathogens) del Centro Nacional de Prevencón y Control (CDC) de Estados Unidos, considera a la plaga, tularemia, hantavirus pulmonar y Dengue (junto con enfermedades como el anthax, ebola y marburgo virus) en un grupo de agentes causales que poseen un alto riesgo a la seguridad nacional y a la salud pública, debido a que son transmitidos de persona a persona, tienen altas tasas de mortalidad, pueden causar pánico/disrupción social/histeria colectiva y requiere planes de respuesta para grandes brotes. Estas enfermedades excepto dengue, son enfermedades infecciosas y zoonoticas están relacionadas en la historia natural de la enfermedad con vectores biológicos (garrapatas, pulgas) y/o vectores no biológicos y roedores & mamíferos. 
 
-La introdución de la enfermedades a nuevas áreas o la recolonización de una nueva área, es favorecido por la movilidad a diferentes niveles de resolución, viajes entres paises, viajes entre estados, viajes entre municipios, viajes a urbes comerciales. A nivel de ciudad, la mobilidad puede ser entre colonias, entre las colonias y el centro de la ciudad, instituciones o centros comerciales. A nivel personal la mobilidad puede ser entre la domicilio de la persona y los centros laborales, centros académicos, centros comerciales, centros culturales, centros gastronómicos, centros recrativos, centros familiares, centros públicos, etc. Entonces los patrones de dispersión de las enfermedades siguen diferentes niveles espaciales de resolución, a nivel de ciudad la transmisión se concentra en los hotspots y en los hotspots, los sitios públicos donde la población de chilpancingo acude a sus diferentes actividades, son blancos para el control y prevención de las enfermedades transmitidas por vector. 
+Tanto, fiebre amarilla y la plaga, constituyeron problemas de salud pública en el pasado. Actualmente existe más de una docena de enfermedades infecciosas como ETVs o ETR que potencialmente podrián emerger o reemerger. De la tabla 1.1 de las enfermedades emergentes o reemergentes zoonóticas, se observa que únicamente las arbovirosis transmitidas por Ae. aegypti (junto con Zika y Chikungunyia) no estan relacionado con roedores o fauna nociva.
 
+```{r, echo = FALSE, fig.cap = "Enfermedades emergentes o reemergentes zoonóticas en México, Guerrero y Chilpancingo"}
+tibble::tibble("Clasificación" = c("ETM", "ETG", "ETG", 
+                                   "ETG", "ETG", "ETG",
+                                   "ETP", "ETP", "ETP",
+                                   "ETR", "ETR"),
+               "Zoonosis" = c("SI", "SI", "SI",
+                              "SI", "SI", "SI",
+                              "SI", "SI", "SI", 
+                              "SI", "SI"),
+               "Emergente o Reemergente" = c("SI", "SI", "SI", 
+                                             "SI", "SI", "SI",
+                                             "SI", "SI", "SI",
+                                             "SI", "SI"),
+               "Nombre" = c("Fiebre Amarilla (vómito negro)",
+                            "Enfermedad de Lyme",
+                            "Fiebre Manchada de las Montañas",
+                            "Ehrliquiosis",
+                            "Babesiosis",
+                            "Tularemia",
+                            "Plaga (Muerte negra)",
+                            "Tifo epidémico",
+                            "Tifo endémico",
+                            "sindrome pulmonar por Hantavirus",
+                            "Letospirosis"),
+               "Agente Causal" = c("VFA", 
+                                   "Borrelia burgdorferi", 
+                                   "Rickettsia rickettsii",
+                                   "subfamily Rickettsiaceae",
+                                   "Babesia microti",
+                                   "Francisella tularensis",
+                                   "Yersinia pestis",
+                                   "Rickettsia prowazekii",
+                                   "Rickettsia typhi",
+                                   "Hantavirus",
+                                   "Letospira"),
+               "Patogeno" = c("Virus", 
+                              "Bacteria", 
+                              "Bacteria",
+                              "Protozoario",
+                              "Bacteria",
+                              "Bacteria",
+                              "Bacteria",
+                              "Bacteria",
+                              "Bacteria",
+                              "Virus",
+                              "Bacteria"),
+               "Hospedero" = c("Primates", 
+                               "Roedores & Mamíferos",
+                               "Roedores & Mamíferos",
+                               "Roedores & Mamíferos",
+                               "Roedores",
+                               "Roedores & Mamíferos",
+                               "Roedores",
+                               "Roedores",
+                               "Roedores",
+                               "Roedores",
+                               "Roedores"),
+               "vector" = c("Aedes aegypti & Hemagogus", 
+                            "Ixodidos", "Ixodidos",
+                            "Ixodidos", "Ixodidos", 
+                            "Ixodidos", 
+                            "Siphonapteros",
+                            "Pediculus humanus",
+                            "Siphonapteros",
+                            "Fomites",
+                            "Fomites")) |>
+    kableExtra::kable(caption = "Tabla de las enfermedades emergentes o reemergentes zoonóticas") |>
+    kableExtra::kable_classic()
+```
 
-El dengue (y el resto de los problemas prioritarios de salud pública), aunado con las limitaciones financieras actuales (deficit de recursos financieros y limitada recaudación de impuestos), y bajo la premisa que ningún presupuesto alcanza para implementar programas de salud pública universales, justifican categoricamente: 1) la implementación de programas de prevención y control focalizados en los hotspots y sitios públicos, y 2) generar programas de verificación sanitaria en sitios públicos que permitan disminuir los riesgo epidemiologicos e incrementar la recaudación de impuestos para financiar los programas de salud pública del municipio de chilpancingo de lo Bravo.
+La importancia de la vigilancia, prevención y control de las enfermedades emergentes o reemergentes zoonóticas donde estan involucrados roedores y vectores, forzan y estimulan a que las autoridades de salud de los tres niveles de gobierno, desarollen, implemente, escale y avaluén planes estratégicos basados en evidencia científica y con enfoque de riesgo con la finalidad de limitar la distribución y transmisión de los actuales problemas de salud pública y las potenciales enfemedades emergentes/remergentes y en consecuencia limitar la carga de las enfermedades en la población del Municipio de Chilpancingo de los Bravo.
+
+Estos planes deberan estar de vinculadas y sincronizados espacialmente y temporalmente con los programas de prevención y control de las enfermedades transmitidas por vector endémicas como dengue, picadura de alacrán y la enfermedad de chagas; y en concordancia con la normatividad vigente y los reglamentos de salu pública y reglamentos sanitarios nacionales e internacionales. 
