@@ -14,5 +14,12 @@ favicon: "favicon.ico"
 description: "El documento describe la propuesta para el control de la fauna nociva e insectos transmisores de enfermedades"
 ---
 
-# Prerequisites {-}
+# **<span style="color:#003300;"> Bienvenidos </span>** {-}
+
+Este documento constituye la versión en línea de la propuesta de <span style="color:#003300;">Control de la Fauna Nociva e Insectos Transmisores de Enfermedades en Sitios Públicos</span> y esta concebido como una programa de acción específico municipal donde se describen el [marco conceptual](https://fdzul.github.io/control_fauna_nociva/marco-conceptual.html) , el [marco jurídico](https://fdzul.github.io/control_fauna_nociva/marco-juridico.html), la [organización del programa](https://fdzul.github.io/control_fauna_nociva/organizacion-programa.html), y los [indicadores/metas](https://fdzul.github.io/control_fauna_nociva/indicador-metas.html).
+
+
+La concepción teórica y práctica de la propuesta fue inspirada por la urgente necesidad de contribuir en políticas públicas y toma de desiciones del Programa de Prevención y Control de las ETVs que límiten la introducción de enfermedades emergentes y reemergentes relacionados roedores y la fauna nociva.
+
+La publicación online es inspirada por las iniciativas libres para la publicación de textos como bookdown & todas las inciciativas de software libre para el análisis de datos espaciales y no espaciales como R, RStudio y Python. El libro es de codigo abierto, asegurando que su contenido es completamente reproducible y públicamente disponible para personal de la Secretaría de Salud de México.
 
