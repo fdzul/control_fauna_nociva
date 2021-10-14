@@ -101,3 +101,6 @@ identificación-de-los-hotspots-de-transmisión-del-dengue
 el-modelo-estratégico-de-focalización-del-dengue
 certificar-a-los-sitios-públicos-del-municipio-de-chilpancingo-de-los-bravo-como-áreas-limpias-y-libres-de-larvas-y-adultos-del-vector-del-dengue.
 tab:unnamed-chunk-2
+tab:unnamed-chunk-3
+tab:unnamed-chunk-4
+tab:unnamed-chunk-5
