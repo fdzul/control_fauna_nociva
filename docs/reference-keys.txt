@@ -89,3 +89,13 @@ construir-un-sistema-de-información-geográfica-de-los-sitios-públicos-del-mun
 construir-un-sistema-de-información-geográfica-de-las-empresas-controladoras-de-plagas-del-municipio-de-chilpancingo-de-los-bravo.
 tab:unnamed-chunk-1
 realizar-el-monitoreo-entomológico-de-dipteros-de-importancia-médica-en-los-sitios-públicos-del-municipio-de-chilpancingo-de-los-bravo.
+fig:hotspots
+realizar-el-monitoreo-roedores-en-los-sitios-públicos-del-municipio-de-chilpancingo-de-los-bravo.
+fig:unnamed-chunk-3
+fig:unnamed-chunk-4
+modelo-estratégico-de-focalización-del-dengue-en-el-área-urbana-de-chilpancingo-de-los-bravo
+identificación-de-los-hotspots-de-transmisión-del-denguehttpsfdzul.github.iodireccion_municipal_saludhotspots-de-los-casos
+hotspots-de-las-abundancias-del-vector
+el-modelo-estratégico-de-focalización-del-dengue-en-el-área-urbana-de-chilpancingo
+identificación-de-los-hotspots-de-transmisión-del-dengue
+el-modelo-estratégico-de-focalización-del-dengue
