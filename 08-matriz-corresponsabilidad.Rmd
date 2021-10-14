@@ -1,3 +1,29 @@
 # **<span style="color:#003300;">Matriz de Corresponsabilidad </span>** {#matriz-corresponsabilidad}
 
 ---
+
+El Programa de Prevención y Control de la Fauna Nociva e Insectos Transmisores de Enfermedades en Sitios Públicos, dado que es una inovación del sistema municipal de salud, no opera en los tres órdenes de gobierno y su ambito de compentencia se cirscunscribe a los sitios públicos del municipio. Su estructura y organización se establece a travás la Secretaría de Salud Municipal, en donde se lleva a cabo la coordinación, el seguimiento, monitoreo  y evaluación de las estrategias y las acciones en los sitios públicos.
+
+```{r, echo=FALSE}
+tibble::tibble("Linea de Acción" = c("1.1. Generar y actualizar el patrón de sitios públicos del municipio de Chilpancingo de los Bravo",
+                                     "1.2. Construir un sistema de información geográfica de los sitios públicos del municipio de Chilpancingo de los Bravo"),
+                    "Regulación Sanitaria" = c("SI", "SI"),
+                    "Promoción de la Salud" = c("NO", "SI"),
+                    "Epidemiología" = c("NO", "SI"),
+                    "Vectores" = c("NO", "SI")) |>
+  kableExtra::kable(caption = "**Estrategia 1. Generar y actualizar el patrón de sitios públicos del municipio de Chilpancingo de los Bravo**") |>
+  kableExtra::kable_classic()
+```
+
+
+```{r, echo=FALSE}
+tibble::tibble("Linea de Acción" = c("2.1. Actualizar el catálogo de las empresas controladoras de plagas del municipio de Chilpancingo de los Bravo",
+                                     "2.2. Aplicar una encuesta sobre uso y aplicación de insecticidas al personal de las empresas controladoras de plagas del municipio de Chilpancingo de los Bravo","2.3. Realizar una programa de educación continua sobre uso y aplicación de insecticidas en salud pública dirigido al personal de las empresas controladoras de plagas del municipio de Chilpancingo de los Bravo",
+                                     "2.4. Construir un sistema de información geográfica de las empresas controladoras de plagas del municipio de Chilpancingo de los Bravo"),
+                    "Regulación Sanitaria" = c("SI", "SI", "SI", "NO"),
+                    "Promoción de la Salud" = c("NO", "NO", "NO", "SI"),
+                    "Epidemiología" = c("NO", "NO", "NO", "SI"),
+                    "Vectores" = c("NO", "SI", "SI", "SI")) |>
+  kableExtra::kable(caption = "**Estrategia 2. Generar y actualizar el patrón de las empresas controladoras de plagas del municipio de Chilpancingo de los Bravo**") |>
+  kableExtra::kable_classic()
+```
